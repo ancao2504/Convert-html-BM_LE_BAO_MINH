@@ -1,9 +1,5 @@
-@page {
-    size: A4;
-    margin: 0;
-  }
 @media print{@page{margin:15mm 20mm}}
-.print-invoice *{font-family:"Times New Roman","serif";font-size:13pt!important;line-height:17pt;color:black}
+.print-invoice *{font-family:"Times New Roman","serif"!important;font-size:13pt!important;line-height:17pt;color:black}
 p{line-height:1.5}
 table,div{font-size:14px}
 .quote-details td{border:1px solid black}
@@ -82,7 +78,7 @@ table,div{font-size:14px}
 .tr-dieu-8 .ul-commit .li-commit p{margin-bottom:0;margin-top:0}
 .tr-dieu-8 .ul-commit{margin-top:0}
 .tr-dieu-7 ul li p{margin-bottom:0;margin-top:0}
-.table-dieu-1, .table-dieu-1 tr, .table-dieu-1 td{page-break-inside:avoid; page-break-after:auto;}
+tr,td{page-break-inside:avoid}
 .tr-dieu-2 ul.ul-commit{margin-top:0}
 .quote-details-tr-gdvht .gdvht-ban-in{font-weight:400}
 .tr-dieu-3 .step-number{margin-right:3px}
@@ -111,14 +107,3 @@ table,div{font-size:14px}
 .spacing-block-ml28{margin-left:28px}
 .spacing-block-ml40{margin-left:40px}
 .text-transform-uppercase{text-transform:uppercase}
-.flex-check-box .item-checked {
-    font-family: "Wingdings 2";
-    font-weight: bold;
-}
-.flex-check-box .item-box {
-    font-family: "Wingdings";
-}
-.flex-check-box {
-    display: flex;
-    justify-content: center;
-}
