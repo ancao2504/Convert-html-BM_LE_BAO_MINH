@@ -1,5 +1,5 @@
 @media print{@page{margin:15mm 20mm}}
-*{font-family:"Times New Roman","serif"!important;font-size:13pt!important;line-height:17pt;color:black}
+.print-invoice *{font-family:"Times New Roman","serif"!important;font-size:13pt!important;line-height:17pt;color:black}
 p{line-height:1.5}
 table,div{font-size:14px}
 .quote-details td{border:1px solid black}
@@ -86,3 +86,23 @@ tr,td{page-break-inside:avoid}
 .pd-bottom-20 {
     padding-bottom:20px
 }
+.print-invoice table {
+    width: 100%;
+}
+
+
+.table-data {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+.table-data tr th {
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 2px;
+    background: #ccc;
+  }
+  .table-data tr td {
+    border: 1px solid black;
+    padding: 2px;
+  }
