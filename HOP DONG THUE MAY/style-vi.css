@@ -5,6 +5,15 @@
 @media print{@page{margin:15mm 20mm}}
 .print-invoice *{font-family:"Times New Roman","serif";font-size:13pt!important;line-height:17pt;color:black}
 p{line-height:1.5}
+.print-invoice .tr-dieu-5 p,
+.print-invoice .tr-dieu-6 p,
+.print-invoice .tr-dieu-7 p,
+.print-invoice .tr-dieu-8 p,
+.print-invoice .tr-dieu-9 p,
+.print-invoice .tr-dieu-10 p,
+.print-invoice .tr-dieu-11 p {
+    text-align: justify;
+}
 table,div{font-size:14px}
 .quote-details td{border:1px solid black}
 .quote-details label{padding:5px}
