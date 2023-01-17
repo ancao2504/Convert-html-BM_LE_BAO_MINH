@@ -79,3 +79,16 @@
     border-collapse: collapse;
     table-layout: fixed;
 }
+.so-tien-chiet-khau-con-lai-khau-tru-vao-hd {
+    margin-top: 10px;
+}
+.so-tien-chiet-khau-con-lai-khau-tru-vao-hd td.td-total {
+    border: 1px solid #000;
+}
+.can-cu {
+    margin: 0 auto;
+    width: 600px;
+}
+.item-tr td {
+    padding: 3px;
+}
