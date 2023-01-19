@@ -11,8 +11,15 @@ p{line-height:1.5}
 .print-invoice .tr-dieu-8 p,
 .print-invoice .tr-dieu-9 p,
 .print-invoice .tr-dieu-10 p,
+.print-invoice .tr-dieu-10 div,
 .print-invoice .tr-dieu-11 p {
     text-align: justify;
+}
+.print-invoice .tr-dieu-9 .center-services-machine {
+    text-align: center;
+}
+.print-invoice .tr-dieu-9 .hotline {
+    text-align: center;
 }
 table,div{font-size:14px}
 .quote-details td{border:1px solid black}
