@@ -1,12 +1,8 @@
 @page {
-    size: Letter;
-    margin: 0;
-  }
-@media print {
-@page {
-margin: 15mm 20mm;
+  size: A4;
+  margin: 0;
 }
-}
+@media print{@page{margin:15mm 20mm}}
 * { 
 font-family: "Times New Roman", "serif" !important;
 font-size: 13pt !important;
@@ -54,3 +50,12 @@ color: black !important;
 .txt_justify { text-align: justify; }
 #annex { border-collapse: collapse; }
 #annex td { page-break-inside: avoid; page-break-after: auto; border: 1px solid #000; }
+.tbody-group-ab {
+  display: table-row-group;
+  page-break-inside:avoid; 
+  page-break-after:auto;
+}
+.tbody-group-ab tr td.group-A , .tbody-group-ab tr td.group-B {
+  page-break-inside: avoid;
+    page-break-after: auto;
+}
