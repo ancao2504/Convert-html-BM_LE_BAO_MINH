@@ -1,0 +1,56 @@
+@page {
+    size: Letter;
+    margin: 0;
+  }
+@media print {
+@page {
+margin: 15mm 20mm;
+}
+}
+* { 
+font-family: "Times New Roman", "serif" !important;
+font-size: 13pt !important;
+line-height: 17pt !important;
+color: black !important;
+}
+.cb_size { font-size: 17pt !important; }
+#leftColumn { display: none; }
+#content { margin: auto !important; width: 600pt; border: 0 !important; position: relative; }
+#footer { display: none; }
+.logo { position: absolute; top: 10px; width: 130px; height: 130px; }
+.barcode { position: absolute; top: 0; right: 0; }
+.page_vi { position: relative; }
+.block_1 { font-size: 17px !important; font-weight: bold; text-align: center; }
+.block_2 { font-size: 24px !important; line-height: 30px !important; font-weight: bold; text-align: center; margin-top: 30px; }
+.block_3 { font-weight: bold; }
+.block_4 { padding-left: 40px; }
+.block_4 li { margin-left: 18px; text-align: justify; }
+.block_5 { padding-left: 42px; text-align: justify; }
+.block_6 { text-align: justify; }
+.block_7 { padding-left: 15px; }
+.block_8 { margin-left: -15px; text-indent: 15px; }
+.tbl_heading { border-top: 1px solid #000; }
+.tbl_th { background-color: #bfbfbf; font-weight: bold; }
+.tbl_td { border-right: 1px solid #000; border-bottom: 1px solid #000; }
+.tbl_col_first { border-left: 1px solid #000; }
+.tab_1 { padding-left: 35px; }
+.tab_2 { padding-left: 20px; }
+.tab_3 { padding-left: 100px; }
+.tab_4 { padding-left: 18px; }
+.tab_5 { padding-left: 68px; }
+.tab_6 { padding-left: 5px; }
+.tab_7 { padding-top: 100px; }
+.page_break { page-break-after: always; }
+.para_break { padding-top: 15px; }
+.no_margin { margin: 0; }
+.center { text-align: center; }
+.alpha_list { list-style-type: lower-alpha; }
+.tbl_heading { padding: 5px; border-top: 1px solid #000; }
+.tbl_break { padding: 7px; background-color: #92d050; }
+.tbl_col { padding: 2px 5px; }
+.text_baseline { vertical-align: baseline; }
+.add_align { padding-left: 10px; text-indent: -10px; }
+.bold_txt { font-weight: bold; }
+.txt_justify { text-align: justify; }
+#annex { border-collapse: collapse; }
+#annex td { page-break-inside: avoid; page-break-after: auto; border: 1px solid #000; }
