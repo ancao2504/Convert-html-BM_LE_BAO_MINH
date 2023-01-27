@@ -1,0 +1,101 @@
+
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print{@page{margin:5mm 10mm}}
+.print-container {
+    margin: 0 auto;
+}
+.print-container * {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+.print-container table {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+.text-center {
+    text-align: center;
+}
+.float-right {
+    float: right;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-00 {
+    margin-bottom: 0;
+}
+.mt-00 {
+    margin-top: 0;
+}
+.table-sotien-ck, .table-sotien-lai-cham-ck {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table-sotien-ck td, .table-sotien-lai-cham-ck td {
+    border: 1px solid;
+}
+.td-so-hoa-don {
+    height: 30pt;
+    width: 57pt;
+}
+.customBold {
+    font-weight: bold;
+}
+.customItalic {
+    font-style: italic;
+}
+.td-ngay-hoa-don {
+    width:78pt
+}
+.td-ten-hang {
+    width:140pt
+}
+.td-so-luong {
+    width:56pt
+}
+.td-tong-ho-tro {
+    width:110pt
+}
+.td-chenh-lech {
+    width:54pt
+}
+.td-gia-ho-tro {
+    width:110pt
+}
+.td-thanh-tien {
+    width:86pt
+}
+.td-gia-xuat-hoa-don {
+    width:71pt
+}
+.so-tien-chiet-khau-con-lai-khau-tru-vao-hd table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.so-tien-chiet-khau-con-lai-khau-tru-vao-hd {
+    margin-top: 10px;
+}
+.so-tien-chiet-khau-con-lai-khau-tru-vao-hd td.td-total {
+    border: 1px solid #000;
+}
+.can-cu {
+    margin: 0 auto;
+    width: 600px;
+}
+.item-tr td {
+    padding: 3px;
+}
+.tr-total .td-total {
+    padding: 3px;
+}
+.item-tr {
+    page-break-inside: avoid;       
+}
