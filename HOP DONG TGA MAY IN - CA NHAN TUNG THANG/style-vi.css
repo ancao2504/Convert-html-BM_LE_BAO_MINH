@@ -28,7 +28,7 @@ table,div{font-size:14px}
 .contractName{border:0;width:800px}
 .provisionOne_tb,.provisionTwo_tb{width:800px;border:1px solid black;border-spacing:0}
 .provisionOne_tb td,.provisionOne_tb tr{padding:0;border:1px solid black}
-.contractValue{padding-top:20px;padding-bottom:20px}
+.contractValue{padding-top:0px;padding-bottom:0px}
 .QuyCach{padding-left:10px}
 .Specifications{padding-left:10px;padding-bottom:20px}
 .detailSpec{padding-left:10px}
@@ -42,7 +42,7 @@ table,div{font-size:14px}
 .fsize-title-hdmb{font-size:16.0pt!important;line-height:1.5!important}
 .fsize-title-pthucdichvu{font-size:13px}
 .text-right{text-align:right}
-.step-number{float:left;margin-right:15px}
+.step-number{float:left;margin-right:5px}
 .li_marker_number{counter-increment:list}
 .li_marker_number::marker{content:""counter(list)"."}
 .li-commit{counter-increment:list}
@@ -51,8 +51,8 @@ table,div{font-size:14px}
 .text-left-15{margin-left:15px}
 .text-left-40{margin-left:40px}
 .ul-step-number .li_marker_number p{margin-bottom:0}
-.minus-sign{float:left;padding:0 10px}
-.div-pthth{margin-left:40px}
+.minus-sign{float:left;padding:0 5px}
+.div-pthth{margin-left:25px}
 .sbinhangthang{margin-bottom:5px}
 .mb-05{margin-bottom:5px}
 .mb-00{margin-bottom:0}
@@ -64,15 +64,14 @@ table,div{font-size:14px}
 .mt-10{margin-top:10px}
 .float-left{float:left}
 .mr-20{margin-right:20px}
+.ml-5{margin-left:5px}
 .ml-30{margin-left:30px}
 .ml-10{margin-left:10px}
 .ml-20{margin-left:20px}
-.spacing-ben-b-title,.spacing-ben-a-title{margin-left:60px;font-weight:bold}
 .ml-60{margin-left:60px}
 .li-group-ben-b .red font{color:red}
 .gdvht-ban-in{text-align:center;margin-top:5px;margin-bottom:5px;font-weight:bold}
 .text-center{text-align:center}
-.tr-dieu-4-gdvhang-thang .step-number{margin-right:25px}
 .line-height-30{line-height:30px}
 .tr-dieu-8 .ul-commit .li-commit p{margin-bottom:0;margin-top:0}
 .tr-dieu-8 .ul-commit{margin-top:0}
@@ -102,4 +101,10 @@ tr,td{page-break-inside:avoid}
 }
 .quote-details .td-last {
     text-align: right;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-20 {
+    padding-left: 20px;
 }
