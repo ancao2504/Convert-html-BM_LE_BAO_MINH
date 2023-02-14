@@ -1,4 +1,11 @@
-@media print{@page{margin:15mm 20mm}}
+@media print {
+    @page {
+        margin: 15mm 20mm;
+    }
+     .quote-details tr {
+         break-inside: avoid;
+    }
+}
 .container-invoice-tga *{font-family:"Times New Roman","serif";font-size:13pt;line-height:17pt;color:black}
 p{line-height:1.5}
 table,div{font-size:14px}
@@ -76,7 +83,6 @@ table,div{font-size:14px}
 .tr-dieu-8 .ul-commit .li-commit p{margin-bottom:0;margin-top:0}
 .tr-dieu-8 .ul-commit{margin-top:0}
 .tr-dieu-7 ul li p{margin-bottom:0;margin-top:0}
-tr,td{page-break-inside:avoid}
 .tr-dieu-2 ul.ul-commit{margin-top:0}
 .quote-details-tr-gdvht .gdvht-ban-in{font-weight:400}
 .tr-dieu-3 .step-number{margin-right:3px}
