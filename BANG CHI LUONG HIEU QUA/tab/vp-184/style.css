@@ -1,0 +1,173 @@
+@media print {
+    @page {
+        margin: 15mm 20mm;
+    }
+    .middle tr {
+        break-inside: avoid;
+    }
+}
+
+html {
+    font-family:"Times New Roman",Times,serif;
+    font-size:11pt;
+    background-color:white;
+  }
+  
+  .container-table-money {
+    width:750px;
+    margin:0 auto;
+    display:block;
+  }
+
+  .container-table-money * { 
+    -webkit-print-color-adjust: exact; 
+  }
+
+  table{
+    border-collapse:collapse;
+}
+  
+  .td-head-company,
+  .td-head-mid-department {
+    width:100%;
+    font-size:16px;
+  }
+  
+  .customizeBold {
+    font-weight:bold;
+  }
+  
+  .pt-05 {
+    padding-top:5px;
+  }
+  
+  .text-center {
+    text-align:center;
+  }
+  
+  .td-head-bottom {
+    font-size:20px;
+  }
+  
+  .clear {
+    clear:both;
+  }
+  
+  .table-width-100 {
+    width:100%;
+  }
+  
+  .item-head-td {
+    padding:20px;
+  }
+  
+  .item-head-td-pd-3 {
+    padding:3px;
+  }
+  
+  td.style-child {
+    vertical-align:bottom;
+    text-align:center;
+    border-bottom:1px solid #000000;
+    border-top:1px solid #000000;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
+    color:#000000;
+    font-family:'ARIAL';
+    font-size:10pt;
+    background-color:white;
+    padding:10px;
+  }
+  
+  td.text-right {
+    text-align:right;
+    padding-right:3px;
+  }
+  
+  td.text-left {
+    text-align:left;
+    padding-left:2px;
+  }
+  
+  .style-td {
+    vertical-align:bottom;
+    border-bottom:1px solid #000000;
+    border-top:1px solid #000000;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
+    color:#000000;
+    font-family:'Arial';
+    font-size:10pt;
+    background-color:#d8d8d4;
+  }
+  
+  .mb-00 {
+    margin-bottom:0;
+  }
+  
+  .mt-00 {
+    margin-top:0;
+  }
+  
+  .item-head-td-0 {
+    padding:0;
+  }
+  
+  .header-title-bottom {
+    font-size:24px;
+    margin-top:10px;
+  }
+  
+  .footer-title {
+    font-size:20px;
+    margin-top:5px;
+  }
+  
+  .header-title-company,
+  .header-title-department {
+    font-size:18px;
+  }
+  
+  .middle {
+    margin-top:10px;
+  }
+  
+  .header-title-department {
+    margin-top:5px;
+  }
+  
+  .footer-invoice table {
+    width:100%;
+  }
+  
+  .footer-invoice .block-td-25-percent {
+    width:25%;
+  }
+  
+  .footer-invoice .block-import-day-month-year {
+    float:right;
+  }
+  
+  .block-import-day-month-year .s6 {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-style:italic;
+    font-weight:normal;
+    text-decoration:none;
+    font-size:15px;
+    margin-bottom:15px;
+    margin-top:15px;
+  }
+  
+  .add-space-import {
+    margin-right:3px;
+  }
+  
+  .footer-child-table .item-tr-bottom td {
+    padding-top:80px;
+    font-style:italic;
+    font-weight:bold;
+  }
+  .item-tr-department td.style-child, .item-tr-total td {
+    background-color: #FFFF00;
+  }
