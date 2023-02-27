@@ -60,7 +60,7 @@ table,div{font-size:14px}
 .text-left-40{margin-left:40px}
 .ul-step-number .li_marker_number p{margin-bottom:0}
 .minus-sign{float:left;padding:0 5px}
-.div-pthth{margin-left:40px}
+.div-pthth{margin-left:35px}
 .sbinhangthang{margin-bottom:5px}
 .mb-05{margin-bottom:5px}
 .mb-00{margin-bottom:0}
@@ -110,6 +110,9 @@ table,div{font-size:14px}
 }
 .quote-details .td-last {
     text-align: right;
+}
+.pl-5 {
+    padding-left: 5px;
 }
 .pl-10 {
     padding-left: 10px;
