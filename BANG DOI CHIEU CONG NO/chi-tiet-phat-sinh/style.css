@@ -1,0 +1,29 @@
+.container-debit-list {
+    width: 690px;
+    margin: 0 auto;
+}
+.container-debit-list .header .logo {
+    float: left;
+}
+.container-debit-list .header .logo img {
+    height: 80px;
+}
+.title-debit-table {
+    font-size: 30px;
+}
+
+
+.customize-FontWeightBold {
+    font-weight: bold;
+}
+.customize-text-center {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+ }
+td { 
+    padding: 40px;
+    text-align: center;
+}
