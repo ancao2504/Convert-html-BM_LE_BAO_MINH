@@ -1,53 +1,130 @@
 @media print {
     @page {
-        margin: 15mm 20mm;
+        margin:15mm 20mm;
     }
     .table-block tr.item-tr {
-        break-inside: avoid;
+        break-inside:avoid;
     }
 }
 
 .container-report-synthetic {
-    width: 710px;
-    margin: 0 auto;
+  width:800px;
+  margin:0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 .item-head-block-right {
-    margin-top: 5px;
-    line-height: 20px;
+  margin-top:5px;
+  line-height:20px;
 }
+
 .customize-FontWeightBold {
-    font-weight: bold;
+  font-weight:bold;
 }
+
 .customize-text-center {
-    text-align: center;
+  text-align:center;
 }
+
 .customize-text-right {
-    text-align: right;
+  text-align:right;
 }
 
 /* MIDDLE */
+
 .middle-block {
-    padding-top: 10px;
+  padding-top:10px;
 }
+
 .middle-block .content-report-synthetic {
-    font-size: 30px;
-    padding-bottom: 15px;
+  font-size:30px;
+  padding-bottom:10px;
 }
 
 /* TABLE */
+
 .table-block {
-    margin-top: 20px;
+  margin-top:10px;
 }
+
 .table-block table {
-    width: 100%;
-    border-collapse:collapse;
+  width:100%;
+  border-collapse:collapse;
 }
+
 .table-block .tr-head th {
-    border: 1px solid black;
-    padding: 3px;
+  border:1px solid black;
 }
-.table-block tr.item-tr {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+
+.table-block .tr-head-second th {
+  border:1px solid black;
+  padding:3px;
+}
+
+.table-block tr,
+.table-block tr td {
+  border:1px solid black;
+  padding-right:5px;
+}
+
+.table-block tr.item-tr-parent th {
+  border:1px solid black;
+  font-weight:400;
+  padding-right:5px;
+}
+
+.table-block tr.item-tr-parent th.item-collected-content {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 3px;
+}
+
+tr.item-tr td.item-td-padding {
+  padding:3px;
+}
+
+.table-block tr.tr-head {
+  padding-right:0;
+}
+
+.item-tr-total .td-label-total {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+.footer-block table {
+  width:100%;
+}
+
+.footer-block .block-td-75-percent {
+  width:75%;
+}
+
+.footer-block .block-td-25-percent {
+  width:25%;
+}
+
+.footer-block .block-import-day-month-year {
+  float:right;
+}
+
+.block-import-day-month-year .s6 {
+  color:black;
+  font-weight:normal;
+  text-decoration:none;
+  font-size:15px;
+  margin-bottom:15px;
+  margin-top:15px;
+}
+
+.add-space-import {
+  margin-right:3px;
+}
+
+.footer-child-table .item-tr-bottom td {
+  font-weight:normal;
+  padding-top:5px;
 }
