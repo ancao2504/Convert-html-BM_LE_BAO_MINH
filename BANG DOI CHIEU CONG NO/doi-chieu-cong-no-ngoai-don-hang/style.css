@@ -1,0 +1,148 @@
+@media print {
+  @page {
+  margin:15mm 20mm;
+}
+.table-debt-comparison-block tr.item-tr {
+  break-inside:avoid;
+}
+}
+
+.container-debt-comparison {
+  width:710px;
+  margin:0 auto;
+}
+
+.container-debt-comparison p {
+  font-size:18px;
+  margin-bottom:5px;
+  margin-top:5px;
+}
+
+/* HEADER */
+
+.header-block .logo-block img {
+  height:100px;
+}
+
+.header-block .info-company-block {
+  font-size:20px;
+  line-height:25px;
+}
+
+.td-inline-block {
+  display:inline-block;
+}
+
+/* MIDDLE */
+
+.middle-block .title-balance-debt {
+  font-size:30px;
+  text-transform:uppercase;
+}
+
+.middle-block .title-dear {
+  margin-bottom:20px;
+  margin-top:5px;
+  font-size:18px;
+}
+
+/* GREETING LETTER */
+
+.greetings-letter-block {
+  padding-bottom:10px;
+}
+
+/* DEBT */
+
+.debt-block {
+  padding-top:10px;
+}
+
+.color-red {
+  color:red;
+}
+
+.customize-FontWeightBold {
+  font-weight:bold;
+}
+
+.customize-text-center {
+  text-align:center;
+}
+
+.customize-text-right {
+  text-align:right;
+}
+
+.customize-text-justify {
+  text-align:justify;
+}
+
+/* TABLE DEBT */
+
+.table-debt-comparison-block table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+.table-debt-comparison-block table .tr-head th {
+  border:1px solid black;
+  background-color:#d8d6d6;
+}
+
+.table-debt-comparison-block table .item-tr td {
+  border:1px solid black;
+}
+
+.table-debt-comparison-block table th,
+.table-debt-comparison-block table td {
+  padding:10px;
+}
+
+.table-debt-comparison-block .td-label-total {
+  padding-right:50px;
+}
+
+.table-debt-comparison-block .tr-total td.td-label-total {
+  border-left:1px solid black;
+  border-bottom:1px solid black;
+}
+
+.table-debt-comparison-block .tr-total td.total-money-receivable {
+  border-right:1px solid black;
+  border-bottom:1px solid black;
+}
+
+/* FOOTER */
+
+.footer-block table {
+  width:100%;
+}
+
+.footer-block .block-td-25-percent {
+  width:37%;
+}
+
+.footer-block .block-import-day-month-year {
+  float:right;
+}
+
+.block-import-day-month-year .s6 {
+  color:black;
+  font-family:"Times New Roman",serif;
+  font-style:italic;
+  font-weight:normal;
+  text-decoration:none;
+  font-size:15px;
+  margin-bottom:15px;
+  margin-top:15px;
+}
+
+.add-space-import {
+  margin-right:3px;
+}
+
+.footer-child-table .item-tr-bottom td {
+  font-weight:normal;
+  padding-top:5px;
+}
