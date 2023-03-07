@@ -1,0 +1,53 @@
+@media print {
+    @page {
+        margin: 15mm 20mm;
+    }
+    .table-block tr.item-tr {
+        break-inside: avoid;
+    }
+}
+
+.container-report-synthetic {
+    width: 710px;
+    margin: 0 auto;
+}
+.item-head-block-right {
+    margin-top: 5px;
+    line-height: 20px;
+}
+.customize-FontWeightBold {
+    font-weight: bold;
+}
+.customize-text-center {
+    text-align: center;
+}
+.customize-text-right {
+    text-align: right;
+}
+
+/* MIDDLE */
+.middle-block {
+    padding-top: 10px;
+}
+.middle-block .content-report-synthetic {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+/* TABLE */
+.table-block {
+    margin-top: 20px;
+}
+.table-block table {
+    width: 100%;
+    border-collapse:collapse;
+}
+.table-block .tr-head th {
+    border: 1px solid black;
+    padding: 3px;
+}
+.table-block tr.item-tr {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
