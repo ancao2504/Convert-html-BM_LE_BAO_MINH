@@ -1,15 +1,46 @@
+@media print {
+    @page {
+        margin: 15mm 20mm;
+    }
+    .table-block tr.tr-first {
+        break-inside: avoid;
+    }
+}
+
+
 .container-debit-list {
-    width: 690px;
+    width: 800px;
     margin: 0 auto;
 }
 .container-debit-list .header .logo {
     float: left;
 }
 .container-debit-list .header .logo img {
-    height: 80px;
+    height: 85px;
 }
+.header-block {
+    width: 100%;
+}
+.header-block-logo {
+    width: 15%;
+}
+.header-block-info-company {
+    width: 75%;
+}
+.block-end-empty {
+    width: 10%;
+}
+.item-header-block-info-company {
+    line-height: 20px
+}
+.block-tel {
+    float: left;
+    margin-right: 15px;
+}
+
 .title-debit-table {
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 
@@ -19,11 +50,105 @@
 .customize-text-center {
     text-align: center;
 }
-
-table, th, td {
-    border: 1px solid black;
- }
-td { 
-    padding: 40px;
-    text-align: center;
+.customize-text-right {
+    text-align: right;
 }
+
+.th-col-first {
+    width: 20%;
+}
+
+
+
+.table-block table {
+    width: 100%;
+    border-collapse:collapse;
+}
+.table-block table .tr-head th, .table-block table .tr-empty th {
+    border: 1px solid black; 
+}
+.table-block table .tr-empty th {
+    padding: 10px;
+}
+
+.table-block table tbody {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.table-block table tbody tr.tr-first td {
+    padding-top: 5px;
+}
+.table-block table tbody tr.tr-address {
+    border-bottom: 1px solid black;
+}
+.table-block table tbody .tr-last-first td {
+    padding-top: 5px;
+}
+.table-block table tbody .tr-last-second td {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.td-label-total {
+    padding-right: 20px;
+}
+.tr-head-second th {
+    padding: 15px;
+}
+.tr-head-first th {
+    padding: 10px;
+}
+
+
+
+.middle-block {
+    padding: 15px;
+    padding-top: 0;
+}
+.middle-block .item-middle {
+    padding-top: 10px;
+}
+
+.middle-block .title-collected-content, .middle-block .datetime {
+    font-size: 18px;
+}
+
+.p-label-address {
+    color: red;
+    float: left;
+}
+
+.footer-block table {
+    width:100%;
+  }
+  
+  .footer-block .block-td-25-percent {
+    width:40%;
+  }
+  
+  .footer-block .block-import-day-month-year {
+    float:right;
+  }
+  
+  .block-import-day-month-year .s6 {
+    color:black;
+    font-family:"Times New Roman",serif;
+    font-style:italic;
+    font-weight:normal;
+    text-decoration:none;
+    font-size:15px;
+    margin-bottom:15px;
+    margin-top:15px;
+  }
+  
+  .add-space-import {
+    margin-right:3px;
+  }
+  
+  .footer-child-table .item-tr-bottom td {
+    font-weight:normal;
+    padding-top: 5px;
+  }
+  .item-tr-department td.style-child, .item-tr-total td {
+    background-color: #FFFF00;
+  }

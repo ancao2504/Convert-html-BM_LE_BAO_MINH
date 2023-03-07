@@ -10,30 +10,38 @@
     <body>
         <div class="container-debit-list">
             <div class="header">
-                <div class="logo">
-                    <img src="./images/logo-lbmi.png" alt="Logo lbmi">
+                <div class="header-block">
+                    <div class="logo header-block-logo">
+                        <img src="./images/logo-lbmi.png" alt="Logo lbmi">
+                    </div>
+                    <div class="header-block-info-company">
+                        <div class="company-name customize-FontWeightBold item-header-block-info-company">CÔNG TY CỔ PHẨN LBM</div>
+                        <div class="suppiler-name customize-FontWeightBold item-header-block-info-company">Nhà phân phối chính thức sản phẩn Canon</div>
+                        <div class="address item-header-block-info-company">Địa chỉ: Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị Minh Khai, Phường 05, Quận 3, Thành phố Hồ Chí Minh</div>
+                        <div class="tel-fax item-header-block-info-company">
+                            <div class="block-tel">Tel: 08. 3838 6666</div>
+                            <div class="block-fax">Fax: 08. 3837 6666</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="block-end-empty"></div>
                 </div>
-                <div class="block-info-company">
-                    <div class="company-name customize-FontWeightBold">CÔNG TY CỔ PHẨN LBM</div>
-                    <div class="suppiler-name customize-FontWeightBold">Nhà phân phối chính thức sản phẩn Canon</div>
-                    <div class="address">Địa chỉ: Tầng 14, Tòa nhà HM Town, 412 Nguyễn Thị Minh Khai, Phường 05, Quận 3, Thành phố Hồ Chí Minh</div>
-                    <div class="tel">Tel: 08. 3838 6666 Fax: 08. 3837 6666</div>
-                </div>
+                
             </div>
-            <div class="middle customize-text-center customize-FontWeightBold">
-                <div class="title-debit-table">Bảng đối chiếu công nợ</div>
-                <div class="title-collected-content">131.1.1 - Phải thu của khách hàng hoá Canon</div>
-                <div class="datetime">Từ 02/2023 - 03/2023 </div>
+            <div class="middle-block customize-text-center customize-FontWeightBold">
+                <div class="title-debit-table item-middle">Bảng đối chiếu công nợ</div>
+                <div class="title-collected-content item-middle">131.1.1 - Phải thu của khách hàng hoá Canon</div>
+                <div class="datetime item-middle">Từ 02/2023 - 03/2023 </div>
             </div>
-            <div class="table">
+            <div class="table-block">
                 <table>
                     <thead>
-                        <tr>
-                            <th colspan=2>Chứng từ</th>
-                            <th colspan=5 rowspan="2">Diễn giải</th>
-                            <th colspan=2>Phát sinh trong kỳ</th>
+                        <tr class="tr-head tr-head-first">
+                            <th colspan=2 class="th-col-first">Chứng từ</th>
+                            <th colspan=5 rowspan="2" class="th-col-second">Diễn giải</th>
+                            <th colspan=2 class="th-col-third">Phát sinh trong kỳ</th>
                         </tr>
-                        <tr>
+                        <tr class="tr-head tr-head-second">
                             <th>Số</th>
                             <th>Ngày</th>
                             <th>Nợ</th>
@@ -41,27 +49,87 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="tr-first">
-                            <td class="td-title" colspan=5>KH-KH016318.001 - BỆNH VIỆN NHI ĐỒNG 1</td>
-                            <td class="td-title-dk" colspan=3>Đầu kỳ</td>
-                            <td class="td-money" colspan=2>3,080,000</td>
+                        <tr class="tr-first customize-FontWeightBold">
+                            <td class="td-title" colspan=4>KH-KH016318.001 - BỆNH VIỆN NHI ĐỒNG 1</td>
+                            <td class="td-title-dk customize-text-center" colspan=2>Đầu kỳ</td>
+                            <td class="td-money customize-text-right phat-sinh-trong-ky-no" colspan=2>3,080,000</td>
+                            <td class="td-money customize-text-right phat-sinh-trong-ky-co" colspan=2>3,080,000</td>
                         </tr>
                         <tr class="tr-address">
-                            <td class="td-address" colspan=12>Địa chỉ: 1324 gì đó nhé</td>
+                            <td class="td-address" colspan=12>
+                                <p class="p-label-address customize-FontWeightBold">Địa chỉ :</p>
+                                <p class="p-content-address">123 Trần Hưng Đạo</p>
+                            </td>
                         </tr>
-                        <tr>
-                            <td rowspan="2" colspan=3>Tổng cộng</td>
+                        <tr class="tr-empty">
+                            <th colspan=1 rowspan="2"></th>
+                            <th colspan=1 rowspan="2"></th>
+                            <th colspan=4></th>
+                            <th colspan=2></th>
+                            <th colspan=2></th>
+                        </tr>
+                        <tr class="tr-empty"></tr>
+                        <tr class="tr-last-first customize-FontWeightBold">
+                            <td rowspan="2" colspan=4 class="customize-text-right td-label-total">Tổng cộng</td>
                             <td colspan=2>Phát sinh trong kỳ:</td>
-                            <td colspan=2 class="money-phat-sinh-trong-ky">3123123123123</td>
-                          </tr>
-                          <tr>
+                            <td colspan=2 class="customize-text-right money-phat-sinh-trong-ky-no">3123123123123</td>
+                            <td colspan=2 class="customize-text-right money-phat-sinh-trong-ky-co">3123123123123</td>
+                        </tr>
+                        <tr class="tr-last-second customize-FontWeightBold">
                             <td colspan=2>Cuối kỳ</td>
-                            <td colspan=2 class="money-cuoi-ky">3,080,000</td>
-                          </tr>
+                            <td colspan=2 class="customize-text-right money-cuoi-ky-no">3,080,000</td>
+                            <td colspan=2 class="customize-text-right money-cuoi-ky-co">3,080,000</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="footer">
+            <div class="footer-block">
+                <div class="box-export-import">
+                    <div class="with-50"></div>
+                    <div class="with-50">
+                        <div class="block-import-day-month-year">
+                            <p class="s6">
+                                <span class="add-space-import"></span>Ngày ... <span class="add-space"></span>tháng ... <span class="add-space"></span>năm<span class="add-space"></span> ...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-child-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" align="center">
+                                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                            <tr class="item-tr">
+                                                <td class="block-td-25-percent" align="center">
+                                                    <label><strong>Xác nhận của khách hàng</strong></label>
+                                                </td>
+                                                <td class="block-footer-mtop block-td-25-percent" align="center">
+                                                    <label><strong>Kế toán trưởng</strong></label>
+                                                </td>
+                                                <td class="block-footer-mtop block-td-25-percent" align="center">
+                                                    <label><strong>Người lập</strong></label>
+                                                </td>
+                                            </tr>
+                                            <tr class="item-tr-bottom">
+                                                <td class="block-td-25-percent" align="center">
+                                                    <div class="block-sign-and-full-name">(Ký, họ tên)</div>
+                                                </td>
+                                                <td class="block-footer-mtop block-td-25-percent" align="center">
+                                                    <div class="block-sign-and-full-name">(Ký, họ tên)</div>
+                                                </td>
+                                                <td class="block-footer-mtop block-td-25-percent" align="center">
+                                                    <div class="block-sign-and-full-name">(Ký, họ tên)</div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </body>
