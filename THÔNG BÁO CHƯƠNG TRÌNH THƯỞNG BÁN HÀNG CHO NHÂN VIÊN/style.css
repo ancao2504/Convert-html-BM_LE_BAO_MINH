@@ -1,0 +1,201 @@
+@page {
+    size:A4 portrait;
+    margin:20mm;
+}
+  
+.container-program-announcement {
+  width:210mm;
+  margin:0 auto;
+}
+
+u {
+  text-decoration:underline;
+}
+
+.middle .announcemenet .title h1 {
+  margin-bottom:5px;
+}
+
+.program-bonus-staff .title h1 {
+  margin-bottom:10px;
+  margin-top:40px;
+}
+
+.customize-text-center {
+  text-align:center;
+}
+
+.customize-font-bold {
+  font-weight:bold;
+}
+
+.customize-italic {
+  font-style:italic;
+}
+
+.program-bonus-staff .title {
+  font-size:14px;
+}
+
+/* Table */
+
+  .container-table {
+  width:250mm;
+  margin:0 auto;
+}
+
+.table .table-box-first table,
+.table .table-box-seconds table {
+  border:1px solid #ccc;
+  border-collapse:collapse;
+  margin:0;
+  padding:0;
+  width:100%;
+  table-layout:fixed;
+}
+
+.table table thead tr {
+  background-color:#e6e6e6;
+  border:1px solid #ddd;
+  padding:0.35em;
+}
+
+.table .table-box-first table {
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+.table table td,
+.table table th {
+  padding:10px;
+  border:1px solid #ccc;
+  text-align:left;
+  font-size:17px;
+}
+
+.table .table-box-first .stt,
+.table .table-box-seconds .stt {
+  width:4%;
+}
+
+.table .table-box-first tr th.stt,
+.table .table-box-first tbody tr td.stt,
+.table .table-box-seconds tbody tr td.stt,
+.table .table-box-seconds .label-product {
+  text-align:center;
+}
+
+.table .table-box-seconds th.item-text-center,
+.table .table-box-first tr th.item-product {
+  text-align:center;
+}
+
+.table .table-box-first .item-money,
+.table .table-box-seconds .item-money {
+  text-align:right;
+}
+
+.table .table-box-first tr th.item-qty {
+  width:9%;
+  text-align:center;
+}
+
+.table .table-box-first tr th.item-text-center {
+  text-align:center;
+}
+
+/* Notes */
+
+    .notes {
+  padding:60px;
+  padding-bottom:0;
+  padding-top:10px;
+}
+
+.notes .line .item {
+  font-size:18px;
+  margin-bottom:5px;
+}
+
+.s6 {
+  color:black;
+  font-family:"Times New Roman",serif;
+  font-style:italic;
+  font-weight:normal;
+  text-decoration:none;
+  font-size:17px;
+  margin-bottom:15px;
+  margin-top:15px;
+}
+
+.add-space {
+  margin-right:5px;
+}
+
+.add-space-export {
+  margin-right:3px;
+}
+
+.add-space-import {
+  margin-right:3px;
+}
+
+.footer .block-footer-mtop {
+  padding-top:0;
+}
+
+.footer .block-td-25-percent {
+  width:33%;
+}
+
+.footer .block-sign-and-full-name {
+  margin-top:10px;
+}
+
+.footer table {
+  width:100%;
+}
+
+.number-transfer {
+  float:right;
+}
+
+.box-export-import .with-50 {
+  width:50%;
+  float:left;
+}
+
+.box-export-import .block-import-day-month-year {
+  float:right;
+}
+
+.block-sign-and-full-name {
+  padding-bottom:120px;
+}
+
+.footer table td label strong {
+  font-size:17px;
+}
+
+.based-on p {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.notes .bottom {
+  margin-top:25px;
+}
+
+.deparment p,
+.based-on p,
+.program-content .title-program-contenticon {
+  font-size:17px;
+}
+
+.deparment {
+  margin-left:40px;
+}
+
+.program-content {
+  margin-left:20px;
+}
