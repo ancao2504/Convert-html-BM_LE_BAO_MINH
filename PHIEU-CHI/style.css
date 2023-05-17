@@ -1,15 +1,169 @@
+@media print {
+    @page {
+        margin:10mm 5mm;
+    }
+}
 .invoice-container {
     margin: 15px auto;
-    padding: 70px;
+    padding: 10px;
     max-width: 850px;
     background-color: #fff;
-    border: 1px solid #ccc;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -o-border-radius: 6px;
-    border-radius: 6px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+/* DÙNG CHUNG */
+.customizeBold {
+    font-weight: bold;
+}
+.customizeItalic {
+    font-style: italic;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.text-center {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+/* HEADER */
+header .header-flex {
+    display: flex;
+}
+header .company-name-main {
+    color: #dd0f0f;
+}
+header .distributor-text {
+    margin-right: 2px;
+}
+header .block-company-name p {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+header .block-promulgated-form p {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+header .tel-and-fax .tel {
+    margin-right: 5px;
 }
 
-.company-name-main {
-    color: red;
+/* MIDDLE */
+section.middle .color-block-first {
+    color: #77279F;
+}
+section.middle .name-spending-vouchers {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+section.middle .block-first .date-to-time {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section.middle .table-spending-vouchers table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+
+section.middle .ui.segment {
+    position: relative;
+    margin: 1rem 0;
+    padding: 1em 1em;
+}
+section.middle .ui.cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: -0.875em -0.5em;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+section.middle .ui.cards .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0.875em 0.5em;
+    float: none;
+}
+section.middle .ui.card, section.middle .ui.cards .card {
+    max-width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0;
+    background: #fff;
+    padding: 0;
+    width: 30%;
+}
+section.middle .block-first .card-empty {
+    display: block;
+    width: auto;
+}
+section.middle .ui.card.block-debt-account-has {
+    padding-left: 0;
+    margin-top: 0;
+}
+section.middle .block-seconds-item-flex {
+    display: flex
+}
+section.middle .block-seconds p {
+    margin-top: 0;
+    margin-bottom: 5;
+}
+section.middle .block-seconds .block-name {
+    margin-right: 15px;
+    max-width: 100%;
+    width: 10%;
+}
+section.middle .block-seconds .two-dots-mark {
+    margin-right: 5px;
+}
+
+/* FOOTER */
+footer .block-date-to-time {
+    display: flex;
+    float: right;
+    margin-bottom: 5px;
+}
+footer .block-ddmmyy-item-flex {
+    display: flex;
+}
+footer .block-ddmmyy-item-flex label {
+    margin-right: 3px;
+}
+footer .block-signal .block-top, footer .block-signal .block-bottom, footer .add-to-bottom {
+    clear: both;
+}
+footer .block-signal .block-bottom {
+    display: flex;
+}
+footer .block-signal .block-bottom p {
+    padding-top: 100px;
+}
+footer .block-signal-to-deparment, footer .full-name-deparment {
+    width: 20%;
+    max-width: 100%;
+    float: left;
+}
+footer .block-add-to {
+    display: flex;
+}
+footer .block-sub-add-to {
+    margin-left: 5px;
+}
+footer .block-sub-add-to .dot-plus {
+    margin-right: 3px;
 }
