@@ -1,0 +1,182 @@
+@media print{@page{margin:15mm 20mm}}
+*{font-family:"Times New Roman","serif";font-size:13pt;line-height:17pt;color:black}
+p{line-height:1.5}
+table,div{font-size:19px}
+div#content {
+    padding-bottom: 20px;
+}
+.quote-details td{border:1px solid black}
+.quote-details label{padding:5px}
+.quote-details p{padding:0;margin:0}
+.quote-details-header{text-align:center;background:#cccccc}
+.quote-details-header td{padding:0}
+.quote-details td{text-align:center}
+.quote-details td .gdvht-ban-in {
+    background-color: #bfbfbf;
+    padding: 10px;
+}
+.quote-details .money{text-align:right;margin-right:10px;}
+.quote-details .qty{text-align:center}
+.danhsach{padding-left:0;list-style-type:none;list-style-position:inside}
+.ul-can-cu{padding-left:35px;padding-right:35px;list-style-type:none;list-style-position:inside}
+.ul-can-cu li{line-height:23px;font-size:19px;}
+.ul-can-cu li:before{content:"-";color:#000;list-style-position:inside;margin-right:10px}
+.danhsach li:before{content:"▪";color:#000;list-style-position:inside;margin-right:10px}
+.container{margin:auto;width:810px}
+.info{width:810px;border:0}
+.info tr{height:80px}
+.info td{width:15%}
+.customFont{margin-bottom:0;padding-bottom:0;margin-top:0}
+.customSize4{font-size:19px}
+.customSize5{font-size:23px}
+.customBold{font-weight:bold}
+.customItalic{font-style:italic}
+.customJustify{text-align:justify}
+.customUnderline{
+    text-decoration: underline;
+}
+.contractName{border:0;width:800px}
+.provisionOne_tb,.provisionTwo_tb{width:800px;border:1px solid black;border-spacing:0}
+.provisionOne_tb td,.provisionOne_tb tr{padding:0;border:1px solid black}
+.contractValue{padding-top:20px;padding-bottom:20px}
+.QuyCach{padding-left:10px}
+.Specifications{padding-left:10px;padding-bottom:20px}
+.detailSpec{padding-left:10px}
+.Warranty{padding-left:10px}
+.DKBH,.Giaonhan,.Lapdat,.Phuongthuc{padding-left:10px}
+.Delivery,.Installation,.Termofpayment{padding-left:10px;padding-bottom:20px}
+.war_li,.Taikhoan{padding-left:10px;text-align:justify}
+.Account{padding:10px}
+.Thoihan{padding-left:10px}
+.text_baseline{vertical-align:baseline;font-size:19px;}
+.contractName .fsize-title-hdmb{line-height:1.5;font-size:30px;}
+.fsize-title-pthucdichvu{font-size:13px}
+.text-right{text-align:right}
+.step-number{float:left;margin-right:15px}
+.li_marker_number{counter-increment:list}
+.li_marker_number::marker{content:""counter(list)"."}
+.li-commit{counter-increment:list}
+.li-commit::marker{content:""counter(list)"."}
+.text-left-10{margin-left:10px}
+.text-left-15{margin-left:15px}
+.text-left-40{margin-left:40px}
+.ul-step-number .li_marker_number p{margin-bottom:0}
+.minus-sign{float:left;padding:0 10px}
+.div-pthth{margin-left:40px}
+.sbinhangthang{margin-bottom:5px}
+.mb-05{margin-bottom:5px}
+.mb-00{margin-bottom:0}
+.mt-00{margin-top:0}
+.mt-15{margin-top:15px}
+.name-of-party-representative{padding-top:120px}
+.li-letter-symbol{list-style-type:lower-latin}
+.ml-07{margin-left:7px}
+.tr-dieu-8 .step-number{margin-right:30px}
+.mt-10{margin-top:10px}
+.float-left{float:left}
+.mr-20{margin-right:20px}
+.ml-30{margin-left:30px}
+.ml-10{margin-left:10px}
+.ml-20{margin-left:20px}
+.spacing-ben-b-title,.spacing-ben-a-title{margin-left:60px;font-weight:bold}
+.ml-60{margin-left:60px}
+.li-group-ben-b .red font{color:red}
+.gdvht-ban-in{text-align:center;margin-top:5px;margin-bottom:5px;font-weight:bold}
+.text-center{text-align:center}
+.tr-dieu-4-gdvhang-thang .step-number{margin-right:25px}
+.line-height-30{line-height:30px}
+.tr-dieu-8 .ul-commit .li-commit p{margin-bottom:0;margin-top:0}
+.tr-dieu-8 .ul-commit{margin-top:0}
+.tr-dieu-7 ul li p{margin-bottom:0;margin-top:0}
+tr,td{page-break-inside:avoid}
+.tr-dieu-2 ul.ul-commit{margin-top:0}
+.quote-details-tr-gdvht .gdvht-ban-in{font-weight:400}
+.tr-dieu-3 .step-number{margin-right:3px}
+.tr-dieu-4 .title{line-height:20px}
+.p-child-note-2{margin-left:27px}
+.pd-bottom-20 {
+    padding-bottom:20px
+}
+.pd-bottom-10 {
+    padding-bottom:10px
+}
+
+/* PHỤ LỤC */
+#annex-tbl {
+    border-collapse: collapse;
+}
+#annex-tbl tr, #annex-tbl td {
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+#annex-tbl td {
+    border: 1px solid #000;
+}
+.tbl_heading {
+    padding: 5px;
+    border-top: 1px solid #000;
+}
+.tbl_break {
+    padding: 3px;
+    background-color: #92d050;
+}
+.tbl_col {
+    padding: 2px 5px;
+}
+.tbl_col_first {
+    border-left: 1px solid #000;
+}
+
+
+/* Header */
+.block-header .block-happiness b {
+    font-size: 20px;
+}
+.kihieu {
+    font-size: 20px;
+}
+.table_inf {
+    padding-left: 60px;
+}
+.vertical-align-top {
+    vertical-align: top
+}
+
+.tab2 {
+    padding-left: 28px;
+}
+.cb_size {
+    font-size: 17pt;
+}
+.pdl-20 {
+    padding-left: 20px;
+}
+
+.phu-luc-kha-nang-dich-vu {
+    page-break-inside: avoid
+}
+
+.block-flex-row .logo {
+    position: absolute;
+    top: 0;
+}
+
+.block-happiness {
+    margin-top: 45px;
+}
+
+.table-block-a tr td strong, .tr-ben-a .table_inf tr td {
+    font-size: 19px;
+}
+
+.table-block-b tr td strong, .tr-ben-b .table_inf tr td {
+    font-size: 19px;
+}
+
+.block-ben-dai-dien {
+    text-decoration: underline;
+}
+
+div#content p, div#content p b {
+    font-size: 19px;
+}
